@@ -1,0 +1,278 @@
+h2{
+
+	border-style: 1px solid black;
+	text-decoration: underline;
+	text-align: center;
+	background: linear-gradient(to right, red,green,yellow);
+}
+.unorder{
+	border: 2px solid red;
+	border-color: red;
+	border-width: 5px;
+	background-color:lightblue;
+	width: 900px;
+	margin-left: 270px;
+	height: 85px;
+	border-radius: 20px;
+	display: inline-block;
+	
+}
+.unorder li{
+	text-align: center;
+}
+.Lorembox{
+
+border: 2px solid red;
+width: 98%;
+height: 150px;
+padding: 10px;
+background-color:lightseagreen;
+
+
+}
+
+.lorem1{
+border: 2px solid black;
+width: 450px;
+height: 60px;
+margin-top: 0px;
+position: absolute;
+background-color: skyblue;
+    font-style: bold;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.lorem2{
+border: 2px solid black;
+width: 450px;
+height: 60px;
+margin-top: 0px;
+position: absolute;
+background-color: skyblue;
+    font-style: bold;
+    text-align: center;
+    margin-left: 495px;
+    border-radius: 10px;
+}
+.lorem3{
+border: 2px solid black;
+width: 450px;
+height: 60px;
+margin-top: 64px;
+position: absolute;
+background-color: skyblue;
+    font-style: bold;
+    text-align: center;
+    margin-left: 495px;
+    border-radius: 10px;
+}
+.lorem4{
+border: 2px solid black;
+width: 450px;
+height: 60px;
+margin-top:0px;
+position: absolute;
+background-color: skyblue;
+    font-style: bold;
+    text-align: center;
+    margin-left: 970px;
+    border-radius: 10px;
+}
+.yellow{
+
+	  background: linear-gradient(to right,red,orange,yellow,orange,red);
+	  height: 40px; 
+	text-decoration: underline;
+	text-align: center;
+}
+
+.blue{
+	border: 1px solid green;
+width: 98%;
+height: 250px;
+padding: 10px;
+background:radial-gradient(blue ,blue 5%, green);
+
+}
+.Akash{
+
+	height: 100px;
+	width: 200px;
+	border: 2px solid red;
+	padding: 10px;
+	margin-left: 100px;
+	position:relative;
+	top: 55px;
+	background-color: yellow;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	text-decoration: bold;
+	border-radius: 10px;
+}
+.Rishav{
+	height: 100px;
+	width: 200px;
+	border: 2px solid red;
+	padding: 10px;
+	margin-left: 430px;
+	position:absolute;
+	top: 67%;
+	background-color: yellow;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	text-decoration: bold;
+	border-radius: 10px;
+}
+.Guvrav{
+	height: 100px;
+	width: 200px;
+	border: 2px solid red;
+	padding: 10px;
+	margin-left: 770px;
+	position:absolute;
+	top: 67%;
+	background-color: yellow;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	text-decoration: bold;
+	border-radius: 10px;
+}
+.Shivam{
+	height: 100px;
+	width: 200px;
+	border: 2px solid red;
+	padding: 10px;
+	margin-left: 1100px;
+	position:absolute;
+	top: 67%;
+	background-color: yellow;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	text-decoration: bold;
+	border-radius: 10px;
+
+}
+
+.container{
+   height: 400px;
+   background-color: white;
+   border: 1px solid black;
+   height: 340px;
+  
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows:50px 100px 150px 30px ;
+   gap: 5px;
+}
+.item{
+	border: 1px solid black;
+	background-color: aqua;
+	margin-top: 10px;
+	
+
+}
+.item1{
+	grid-column: 1/5;
+	height: 30px;
+	margin-top: 5PX;
+	text-align: center;
+	background-color: red;
+	color: white;
+	border-style: none;
+	
+	
+
+}
+.item2 {
+	height: 80px;
+	width: 440px;
+	margin-top: 7px;
+	background-color: lawngreen;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: bold;
+	border-style: none;
+
+
+}
+.item3{
+	height: 80px;
+	width: 440px;
+	margin-top: 7px;
+	background-color: skyblue;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: bold;
+	border-style: none;
+
+}
+.item4{
+	height: 80px;
+	width: 440px;
+	margin-top: 10px;
+	background-color: blue;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: bold;
+	margin-top: 7px;
+	border-style: none;
+
+
+}
+.item5{
+	grid-column-start: 4;
+	grid-column-end:5 ;
+	margin-top: 5px;
+	width: 100px;
+	height: 240px;
+	color: white;
+	text-decoration: underline;
+	font-size: 20px;
+	border-style: none;
+
+}
+.item5{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row: 2/4;
+	margin-top: 5px;
+	width: 80px;
+	margin-left: 30%;
+	background-color: black;
+	color: white;
+	border-style: none;
+
+}
+.item6{
+	height: 130px;
+	grid-column: 1/4;
+	margin-top: 5px;
+	width: 100%;
+	background-color: orange;
+	color: white;
+	font-size: 20px;
+	border-style: none;
+}
+.item7{
+	grid-column: 1/5;
+	height: 20px;
+	margin-top: 0px;
+	background-color: lightblue;
+	color:black;
+	text-align: center;
+	text-decoration: bold;
+	font-size: 20px;
+border-style: none;
+	
+}
+
+
+
